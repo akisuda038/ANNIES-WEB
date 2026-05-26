@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>New Jeans Song Generator</title>
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <main id="app">
+    <h1>New Jeans Song Generator</h1>
+    <img id="trackCover" src="" alt="Album cover" />
+    <p id="trackName">No track selected</p>
+    <div id="status" aria-live="polite" style="margin-top:8px;font-size:13px;opacity:0.9"></div>
+
+    <div id="musicControls">
+      <button id="playBtn">▶ Play</button>
+      <button id="randomBtn">Randomize Song</button>
+    </div>
+
+    <audio id="myAudio" preload="auto"></audio>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
